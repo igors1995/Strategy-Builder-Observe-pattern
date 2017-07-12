@@ -1,5 +1,7 @@
 package products;
 
+//Builder pattern
+
 public class Protein {
 	private String name;
 	private String sort;
