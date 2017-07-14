@@ -79,7 +79,9 @@ public class Protein {
 
 
 	public static void main(String[] args) {
-		Protein p = new Protein.Builder("Iso100", "Whey").serving(40).numberOfServings(100).proteinsPerServing(34).shugarPerServing(3).build();
+		Protein p = new Builder("Iso100", "Whey").serving(40).numberOfServings(100).proteinsPerServing(34).shugarPerServing(3).build();
 		System.out.println(p.toString());
+		
+		
 	}
 }
